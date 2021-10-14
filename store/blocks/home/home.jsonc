@@ -1,0 +1,86 @@
+{
+  "store.home": {
+    "blocks": [
+      "info-card#home",
+      "flex-layout.row#shelf",
+      "flex-layout.row#form"      
+    ]
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Red Dead Redemption II",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+
+
+
+  "flex-layout.row#form": {
+    "props": {
+      "blockClass": "newslatter"
+    },
+    "children": [
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-input-phone",
+      "newsletter-submit"
+    ]
+  },
+  "newsletter-input-phone": {
+    "props": {
+      "placeholderText": "Qual seu videogame?"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Digite seu nome"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Digite seu e-mail"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Cadastrar"
+    }
+  }
+}
