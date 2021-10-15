@@ -1,0 +1,35 @@
+.listPrice{
+    color: #ffffff;
+    font-size: x-small;
+}
+
+.savings{
+    color: #ffffff
+}
+
+.currencyCode--summary{
+    color: #ffffff;
+
+}
+
+.currencyInteger{
+    color: #ffffff
+}
+
+.currencyDecimal{
+    color: #ffffff
+}
+
+.currencyFraction{
+    color: #ffffff
+}
+
+.installments{
+    color: #ffffff;
+    font-size: x-small;
+}
+
+.sellingPrice{
+    margin-left: 70px;
+}
+

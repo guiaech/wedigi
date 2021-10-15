@@ -1,10 +1,30 @@
 {
   "store.home": {
     "blocks": [
+
       "info-card#home",
+      "rich-text#01",
       "flex-layout.row#shelf",
-      "flex-layout.row#form"      
+      "rich-text#02",
+      "flex-layout.row#plat",
+      "info-card#farcry",
+      "rich-text#03",
+      "flex-layout.row#shelf",
+      "flex-layout.row#form"
+  
+      
     ]
+  },
+
+
+  "flex-layout.row#plat":{
+    "children": [      
+      "info-card#play",
+      "info-card#xbox",
+      "info-card#nit",
+      "info-card#pc"
+    ]
+
   },
 
   "info-card#home": {
@@ -21,6 +41,110 @@
     }
   },
 
+  "info-card#play": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Playstation",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#xbox": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Xbox",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#nit": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Nitendo",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#pc": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "PC Windows",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+
+  "info-card#farcry": {
+    "props": {
+      "id": "info-card-farcry",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Card.png?raw=true",
+      "headline": "Vem aí em Outubro \n Far Cry 6",
+      "callToActionText": "Reservar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-farcry",
+      "textAlignment": "left"
+    }
+  },
+
+  
+
+  "rich-text#01": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Destaque da Semana",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "rich-text#02": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Busque por plataforma",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "rich-text#03": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Em alta",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+
+
   "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
@@ -34,7 +158,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },
@@ -43,8 +167,6 @@
       "blockClass": "shelf"
     }
   },
-
-
 
 
   "flex-layout.row#form": {
