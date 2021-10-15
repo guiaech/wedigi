@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-
       "info-card#home",
       "rich-text#01",
       "flex-layout.row#shelf",
@@ -10,23 +9,25 @@
       "info-card#farcry",
       "rich-text#03",
       "flex-layout.row#shelf",
-      "flex-layout.row#form"
-  
-      
+      "flex-layout.row#saiba",
+      "rich-text#04",
+      "flex-layout.row#shelf"
     ]
   },
-
-
-  "flex-layout.row#plat":{
-    "children": [      
+  "flex-layout.row#plat": {
+    "children": [
       "info-card#play",
       "info-card#xbox",
       "info-card#nit",
       "info-card#pc"
     ]
-
   },
-
+  "flex-layout.row#saiba": {
+    "children": [
+      "info-card#mario",
+      "info-card#oli"
+    ]
+  },
   "info-card#home": {
     "props": {
       "id": "info-card-home",
@@ -40,7 +41,6 @@
       "textAlignment": "left"
     }
   },
-
   "info-card#play": {
     "props": {
       "id": "info-card-play",
@@ -49,12 +49,11 @@
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
       "headline": "Playstation",
       "callToActionText": "Comprar",
-      "callToActionUrl": "/sale/d",
+      "callToActionUrl": "/",
       "blockClass": "info-card-play",
       "textAlignment": "left"
     }
   },
-
   "info-card#xbox": {
     "props": {
       "id": "info-card-play",
@@ -68,7 +67,6 @@
       "textAlignment": "left"
     }
   },
-
   "info-card#nit": {
     "props": {
       "id": "info-card-play",
@@ -82,7 +80,6 @@
       "textAlignment": "left"
     }
   },
-
   "info-card#pc": {
     "props": {
       "id": "info-card-play",
@@ -96,7 +93,6 @@
       "textAlignment": "left"
     }
   },
-
   "info-card#farcry": {
     "props": {
       "id": "info-card-farcry",
@@ -110,9 +106,32 @@
       "textAlignment": "left"
     }
   },
-
-  
-
+  "info-card#oli": {
+    "props": {
+      "id": "info-card-oli",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Banner%20(3).png?raw=true",
+      "headline": "No clima das Olimpíadas",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-oli",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#mario": {
+    "props": {
+      "id": "info-card-mario",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Banner%20(2).png?raw=true",
+      "headline": "Sessão Nostalgia",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-mario",
+      "textAlignment": "left"
+    }
+  },
   "rich-text#01": {
     "props": {
       "textAlignment": "LEFT",
@@ -143,14 +162,28 @@
       "blockClass": "help-message"
     }
   },
-
-
+  "rich-text#04": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Aproveite nossas promoções",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": [
+      "list-context.product-list#demo1"
+    ]
   },
   "list-context.product-list#demo1": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout#demo-products"
+    ],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
     }
@@ -167,8 +200,6 @@
       "blockClass": "shelf"
     }
   },
-
-
   "flex-layout.row#form": {
     "props": {
       "blockClass": "newslatter"
