@@ -66,12 +66,14 @@
     max-height: 350px;
     margin-left: 50px;
     margin-bottom: 25px;
+    margin-top: 30px;
 }
 
 .infoCardContainer--info-card-oli{
     max-width: 600px;
     max-height: 350px;
     margin-right: 50px;
+    margin-top: 30px;
 }
 
 
@@ -132,7 +134,7 @@
 
     .infoCardTextContainer--info-card-play{
         margin-top:20px;
-        margin-left: 50px;
+        padding-left: 10px;
     }
 
     .infoCardContainer--info-card-mario{
@@ -142,6 +144,12 @@
     .infoCardContainer--info-card-oli{
         margin-right: 0px;
     }
+
+    .infoCardHeadline--info-card-play{
+        font-size: 25px;
+    
+    }
+    
 
 
     

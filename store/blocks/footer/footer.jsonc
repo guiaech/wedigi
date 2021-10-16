@@ -1,19 +1,22 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "children": [
+      "flex-layout.row#form",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#Institucional",
+      "vtex.menu@2.x:menu#ajuda",
+      "vtex.menu@2.x:menu#atendimento",
       "footer-spacer",
       "social-networks"
     ],
@@ -23,42 +26,45 @@
       "paddingBottom": 3
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "url": "https://www.facebook.com/wedigibrasil/"
         },
         {
           "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
+          "url": "https://www.instagram.com/wedigibrasil/"
         },
         {
           "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
+          "url": "https://twitter.com/wedigibrasil"
         },
         {
           "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
+          "url": "https://www.youtube.com/channel/UCXfxB-0NToxSok4LHyhj7MA"
         }
       ]
     }
   },
-
   "flex-layout.row#footer-2-desktop": {
-    "children": ["accepted-payment-methods"],
+    "children": [
+      "accepted-payment-methods"
+    ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
   "accepted-payment-methods": {
     "props": {
-      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+      "paymentMethods": [
+        "MasterCard",
+        "Visa",
+        "Diners Club"
+      ]
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#1-footer-mobile",
@@ -66,7 +72,9 @@
     ]
   },
   "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ],
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
@@ -88,8 +96,75 @@
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "menu1"
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": [
+      "vtex.menu@2.x:menu#footer-mobile"
+    ]
+  },
+  "flex-layout.row#form": {
+    "props": {
+      "blockClass": "newslatter",
+        "paddingTop": 6,
+        "paddingBottom": 3
+    },
+    "children": [      
+      "newsletter-form"
+    ]
+  },
+  "newsletter-form": {
+    "children": [
+      "rich-text#news",
+      "rich-text#news2",
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-input-name#2",
+      "newsletter-submit"
+    ]
+  },
+  "rich-text#news": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Se increva na newsletter",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news-message"
+    }
+  },
+  "rich-text#news2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Receba no seu e-mail nossas novidades e cupons de desconto.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news2-message"
+    }
+  },
+  "newsletter-input-name#2": {
+    "props": {
+      "placeholderText": "Qual seu videogame?",
+      "blockClass": "videogame"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "placeholderText": "Digite seu nome",
+      "blockClass": "nome"
+    }
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Digite seu e-mail",
+      "blockClass": "mail"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Cadastrar",
+      "blockClass": "cadastrar"
+    }
   }
 }

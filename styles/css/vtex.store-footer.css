@@ -1,3 +1,24 @@
 .acceptedPaymentMethodContainer{
     background-color:  #03051A;
+    padding-left: 580px;
+    width: 300px;
+}
+
+.socialNetworksContainer{
+    background-color: #03051A;
+    margin-left: 5px;
+    width: 300px;
+}
+
+@media (max-width: 720px){
+
+    .acceptedPaymentMethodContainer{
+        margin-left: 5px;
+        padding-left:20px
+    }
+
+    .socialNetworksContainer{
+        padding-left:20px
+    }
+
 }

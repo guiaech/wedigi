@@ -1,0 +1,106 @@
+{
+    "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Red Dead Redemption II",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#play": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Playstation",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#xbox": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Xbox",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#nit": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Nitendo",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#pc": {
+    "props": {
+      "id": "info-card-play",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "PC Windows",
+      "callToActionText": "Comprar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-play",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#farcry": {
+    "props": {
+      "id": "info-card-farcry",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Card.png?raw=true",
+      "headline": "Vem aí em Outubro \n Far Cry 6",
+      "callToActionText": "Reservar",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-farcry",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#oli": {
+    "props": {
+      "id": "info-card-oli",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Banner%20(3).png?raw=true",
+      "headline": "No clima das Olimpíadas",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-oli",
+      "textAlignment": "left"
+    }
+  },
+  "info-card#mario": {
+    "props": {
+      "id": "info-card-mario",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://github.com/guiaech/contador_cedula_moedas/blob/main/Background%20Banner%20(2).png?raw=true",
+      "headline": "Sessão Nostalgia",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-mario",
+      "textAlignment": "left"
+    }
+  }
+}

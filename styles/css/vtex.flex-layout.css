@@ -4,4 +4,31 @@
 
 .flexRowContent--menu-row{
     background-color: #03051A;
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.flexRowContent--newslatter{
+    background-color: #03051A;
+
+}
+.flexRowContent--payment-methods{
+    background-color: #03051A;
+}
+
+.flexRowContent--menu1{
+    background-color: #03051A;
+    width: 100%;
+
+}
+
+@media (max-width: 720px){
+
+    .flexRowContent--payment-methods{
+        background-color: #03051A;
+    }
+
+    .flexColChild--payment-methods{
+        background-color: #03051A;
+    }
 }

@@ -1,0 +1,28 @@
+.nameInputContainer--videogame{
+    width:200px; 
+    margin-top: 35px;
+    margin-left: 7px;
+}
+.nameInputContainer--nome{
+    width:200px; 
+    margin-left: 450px;
+    margin-top: 35px;
+}
+.emailInputContainer--mail{
+    width:200px; 
+    margin-top: 35px;
+    margin-left: 7px;
+}
+
+.formSubmitContainer--cadastrar{
+    width:110px; 
+    margin-top: 35px;
+    margin-left: 7px;
+}
+
+.newsletterForm{
+    display: flex;
+    margin-left:50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
