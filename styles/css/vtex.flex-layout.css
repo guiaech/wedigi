@@ -27,6 +27,15 @@
     padding-bottom: 10px;
 }
 
+.flexColChild--filterCol{
+    width: 150px;
+    margin-left:10px
+}
+
+.flexRowContent--orderByAndSwitcher{
+    width: 400px;
+}
+
 @media (max-width: 720px){
 
     .flexRowContent--payment-methods{
