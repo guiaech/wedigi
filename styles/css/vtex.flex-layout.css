@@ -10,6 +10,7 @@
 
 .flexRowContent--newslatter{
     background-color: #03051A;
+    margin-right: 5px
 
 }
 .flexRowContent--payment-methods{
@@ -20,6 +21,10 @@
     background-color: #03051A;
     width: 100%;
 
+}
+
+.stretchChildrenWidth{
+    padding-bottom: 10px;
 }
 
 @media (max-width: 720px){

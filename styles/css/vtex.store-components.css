@@ -9,9 +9,35 @@
 .logoContainer{
     background-color: #06092B;
 }
+.logoContainer--logo01{
+    background-color: #03051A;
+    width: 100px;
+    margin-left: 200px
+}
+
+.logoContainer--logo02{
+    background-color: #03051A;
+    width: 100px;
+}
+
 
 .logoLink{
     background-color: #06092B;
+}
+
+.logoLink--logo01{
+    background-color: #03051A;
+    padding-bottom: 10px;
+    padding-left:10px;
+    max-width: 100px;
+    margin-left: 50px;
+}
+
+.logoLink--logo02{
+    background-color: #03051A;
+    padding-bottom: 10px;
+    padding-left:10px;
+    max-width: 100px;
 }
 
 .infoCardContainer{
@@ -102,6 +128,20 @@
 }
 
 
+.productBrand--quickview{
+    color: #fff
+}
+
+.productDescriptionTitle{
+    color: #fff
+}
+
+.stretchChildrenWidth{
+    max-width: 150px
+}
+
+
+
 @media (max-width: 720px){
     .logoImage{
         margin-top:12px;
@@ -148,9 +188,5 @@
     .infoCardHeadline--info-card-play{
         font-size: 25px;
     
-    }
-    
-
-
-    
+    }   
 }

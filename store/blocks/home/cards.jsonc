@@ -1,5 +1,5 @@
 {
-    "info-card#home": {
+  "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": true,

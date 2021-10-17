@@ -1,0 +1,24 @@
+{
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/wedigibrasil/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/wedigibrasil/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/wedigibrasil"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/channel/UCXfxB-0NToxSok4LHyhj7MA"
+        }
+      ]
+    }
+  }
+}

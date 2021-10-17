@@ -1,42 +1,42 @@
 {
-    "rich-text#01": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Destaque da Semana",
-          "textColor": "c-on-emphasis",
-          "font": "t-heading-5",
-          "blockClass": "help-message"
-        }
-      },
-      "rich-text#02": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Busque por plataforma",
-          "textColor": "c-on-emphasis",
-          "font": "t-heading-5",
-          "blockClass": "help-message"
-        }
-      },
-      "rich-text#03": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Em alta",
-          "textColor": "c-on-emphasis",
-          "font": "t-heading-5",
-          "blockClass": "help-message"
-        }
-      },
-      "rich-text#04": {
-        "props": {
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Aproveite nossas promoções",
-          "textColor": "c-on-emphasis",
-          "font": "t-heading-5",
-          "blockClass": "help-message"
-        }
-      }
+  "rich-text#01": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Destaque da Semana",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "rich-text#02": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Busque por plataforma",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "rich-text#03": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Em alta",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  },
+  "rich-text#04": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "![alt text](https://github.com/guiaech/contador_cedula_moedas/blob/main/linha%20(4).png?raw=true) Aproveite nossas promoções",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "help-message"
+    }
+  }
 }

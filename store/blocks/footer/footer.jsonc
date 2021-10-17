@@ -26,31 +26,12 @@
       "paddingBottom": 3
     }
   },
-  "social-networks": {
-    "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "url": "https://www.facebook.com/wedigibrasil/"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/wedigibrasil/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/wedigibrasil"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/channel/UCXfxB-0NToxSok4LHyhj7MA"
-        }
-      ]
-    }
-  },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "rich-text#footer",
+      "accepted-payment-methods",
+      "logo#desktop01",
+      "logo#desktop02"
     ],
     "props": {
       "blockClass": "payment-methods"
@@ -106,10 +87,10 @@
   "flex-layout.row#form": {
     "props": {
       "blockClass": "newslatter",
-        "paddingTop": 6,
-        "paddingBottom": 3
+      "paddingTop": 6,
+      "paddingBottom": 3
     },
-    "children": [      
+    "children": [
       "newsletter-form"
     ]
   },
@@ -122,49 +103,5 @@
       "newsletter-input-name#2",
       "newsletter-submit"
     ]
-  },
-  "rich-text#news": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Se increva na newsletter",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "news-message"
-    }
-  },
-  "rich-text#news2": {
-    "props": {
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "Receba no seu e-mail nossas novidades e cupons de desconto.",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "news2-message"
-    }
-  },
-  "newsletter-input-name#2": {
-    "props": {
-      "placeholderText": "Qual seu videogame?",
-      "blockClass": "videogame"
-    }
-  },
-  "newsletter-input-name": {
-    "props": {
-      "placeholderText": "Digite seu nome",
-      "blockClass": "nome"
-    }
-  },
-  "newsletter-input-email": {
-    "props": {
-      "placeholderText": "Digite seu e-mail",
-      "blockClass": "mail"
-    }
-  },
-  "newsletter-submit": {
-    "props": {
-      "submitButtonLabel": "Cadastrar",
-      "blockClass": "cadastrar"
-    }
   }
 }

@@ -1,0 +1,50 @@
+{
+  "rich-text#footer": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "DOG TRIP BRASIL - CNPJ 33.912.013/0001-96 \n Todos os direitos reservados",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "finish-footer"
+    }
+  },
+  "rich-text#news": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Se increva na newsletter",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news-message"
+    }
+  },
+  "rich-text#news2": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Receba no seu e-mail nossas novidades e cupons de desconto.",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "news2-message"
+    }
+  },
+  "logo#desktop01": {
+    "props": {
+      "blockClass": "logo01",
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.wedigi.com.br/wp-content/themes/wedigi-theme/assets/images/logo-wedigi.png",
+      "width": "70"
+    }
+  },
+  "logo#desktop02": {
+    "props": {
+      "blockClass": "logo02",
+      "title": "Logo",
+      "href": "/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/VTEX_Logo.svg",
+      "width": "70"
+    }
+  }
+}
