@@ -21,10 +21,8 @@ VTEX IO
 ## Resultado:
 
 
- Link do YouTube : [x]
+ Link do YouTube : [https://www.youtube.com/watch?v=OkxwwVzPMcg]
 
-
-<img src="./public/projeto.gif" />
 
 
 
